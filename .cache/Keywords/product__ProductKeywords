@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "9A8D32299B01AF02F3090ED13A84F064",
+  "keywordClasses": [
+    {
+      "name": "product.ProductKeywords",
+      "keywordMethods": [
+        {
+          "name": "addProduct",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

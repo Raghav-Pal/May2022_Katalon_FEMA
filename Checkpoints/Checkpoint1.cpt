@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint1</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/Data1</source-url>
+   </source-info>
+   <taken-date>2022-05-16T16:27:01.751</taken-date>
+   <column-names>
+      <column-name>username</column-name>
+      <column-name>password</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "test",
+      "checked": false
+    },
+    {
+      "value": "test",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "abc",
+      "checked": true
+    },
+    {
+      "value": "def",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "pqr",
+      "checked": true
+    },
+    {
+      "value": "xyz",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
