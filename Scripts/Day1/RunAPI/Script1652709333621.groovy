@@ -19,3 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WS.sendRequest(findTestObject('API/GetUserList'))
 
+WS.sendRequestAndVerify(findTestObject('API/GetUserList'))
+
+WS.sendRequest(findTestObject('API/CreateUser', [('firstName') : 'Walt']))
+
+println('firstName is : ' + GlobalVariable.FIRST_NAME)
+
+def username = 'Graham'
+
+WS.sendRequest(findTestObject('API/CreateUser', [('firstName') : username1]))
+
+println ('Test Case var username = '+username1)
