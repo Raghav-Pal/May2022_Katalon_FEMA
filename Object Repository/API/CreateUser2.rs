@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>CreateUser</name>
+   <name>CreateUser2</name>
    <tag></tag>
-   <elementGuidId>651f39b4-762b-4a78-9918-d10283642d03</elementGuidId>
+   <elementGuidId>320eaa3a-236d-40c4-ac1f-17ef58914d44</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;: \&quot;${firstName}\&quot;,\n    \&quot;job\&quot;: \&quot;leader\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;: \&quot;${name1}\&quot;,\n    \&quot;job\&quot;: \&quot;leader\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -37,11 +37,11 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.null</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>a1206df9-cd59-471d-b547-b52f98804595</id>
+      <id>4090be57-74b0-4668-ab7f-fcca2acda239</id>
       <masked>false</masked>
-      <name>firstName</name>
+      <name>name1</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
